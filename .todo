@@ -1,0 +1,6 @@
+General:
+    - Bir animelist.json olacak onu mongoya fırlatıcaz
+    - My animelist clone yapıcaz ama daha güzel animasyonlu birşekilde
+    - Theme yi manuel sağlayacağız component yaratıp dark mode de bir renk light mode de bir renk olacak div dışında bir html componenti kullanmayacağız
+    - Theme className değiştirerek yapılacak light ve dark diye
+    - Animeler.net i kopya çekiyorum ana sayfanın boilerplatesi ile normal sayfalar farklı sadece top navbar aynı onu kopyalıcaz boilerplate olarak
