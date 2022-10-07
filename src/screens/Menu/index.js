@@ -1,12 +1,21 @@
 import React from "react";
-import View from "../../components/View";
 
-import "./index.css";
+import '../.css'
+
+const userData = require('../../datas/users.json');
 
 const Menu = () => {
     return (
-        <View>{" "}</View>
+        <div className="Menu_body">
+            
+        </div>
     )   
 }
 
 export default Menu;
+
+/*
+{userData.map((user) => {
+    return <div>{user.name}</div>
+})};
+*/

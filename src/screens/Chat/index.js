@@ -2,7 +2,7 @@ import React from "react";
 
 import { useMatches } from "react-router";
 
-import "./index.css";
+import '../.css'
 
 const Chat = () => {
     const matches = useMatches();
@@ -10,7 +10,7 @@ const Chat = () => {
     const params = crumbs[0].params;
 
     return (
-        <div className="main">
+        <div className={"Chat_body"}>
             <p>Chat</p>
         </div>
     )   

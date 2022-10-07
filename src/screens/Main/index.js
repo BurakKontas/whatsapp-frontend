@@ -1,11 +1,20 @@
 import React from "react";
 
-import "./index.css";
+//components
+import Background from "../Background";
 
-const Menu = ({ props }) => {
+//screens
+import Menu from './../Menu/index';
+
+import '../.css'
+
+const Main = ({ props }) => {
     return (
-        <div>Hello World</div>
+        <div className={"Main_body"}>
+            <Menu />
+            <Background />
+        </div>
     )   
 }
 
-export default Menu;
+export default Main;

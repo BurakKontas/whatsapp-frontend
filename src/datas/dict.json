@@ -1,0 +1,32 @@
+[
+    {
+        "user":"",
+        "directory": [
+            {
+                "phone":"",
+                "nick":"",
+                "chat_id":""
+            },
+            {
+                "phone":"",
+                "nick":"",
+                "chat_id":""
+            }
+        ]
+    },
+    {
+        "user":"",
+        "directory": [
+            {
+                "phone":"",
+                "nick":"",
+                "chat_id":""
+            },
+            {
+                "phone":"",
+                "nick":"",
+                "chat_id":""
+            }
+        ]
+    }
+]
