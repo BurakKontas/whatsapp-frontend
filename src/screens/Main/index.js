@@ -6,14 +6,15 @@ import Background from "../Background";
 //screens
 import Menu from './../Menu/index';
 
-import '../.css'
+import './index.css'
 
 const Main = ({ props }) => {
+
     return (
-        <div className={"Main_body"}>
-            <Menu />
-            <Background />
-        </div>
+        <tr className={"Main_body"}>
+            <td><Menu className={'menu'}/></td>
+            <td><Background className={'bg'}/></td>
+        </tr>
     )   
 }
 

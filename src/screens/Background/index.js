@@ -1,10 +1,11 @@
 import React from "react";
 
-import '../.css'
+import './index.css'
+import { Box } from '@mui/material';
 
 function Background() {
     return(
-        <div className={"Background_body"}>Background</div>
+        <Box sx={{backgroundColor:'background.default'}} className={"Background_body"}>Background</Box>
     )
 }
 

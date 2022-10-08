@@ -1,0 +1,58 @@
+.MuiIconButton-root {
+    width: 5vh;
+    height: 5vh;
+}
+
+.avatar {
+    margin-top: 1vh;
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
+}
+
+.ibuttons {
+    margin-top: 2.2vh;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-right: 1vh;
+}
+
+.ibuttons_inner {
+    margin-left: 5vh;
+}
+
+.ibutton {
+    width: 5vh;
+    height: 5vh;
+    margin-right: 0.5vh;
+}
+
+.label {
+    margin-top: 3.5vh;
+}
+
+.Menu_body {
+    height: 100vh;
+    left:0;
+    min-width: 20vw;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    margin-left: 1.5vh;
+    font-size: 2vh;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bottom > TextField {
+    width: 1vh;
+    height: 1vh;
+}
+
+
